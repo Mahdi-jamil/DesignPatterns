@@ -1,0 +1,34 @@
+Ex1 in javaFx Follows MVC pattern
+
+-HelloApplication represent view
+    uses controller only:
+        toFahrenheit.setOnMouseClicked(mouseEvent -> {
+                    try {
+                        String input = textField.getText();
+                        float enteredNumber = Float.parseFloat(input);
+                        float Fahrenheit = controller.toFahrenheit(enteredNumber);
+                        result.setText("result : " + fahrenheit);
+                    } catch (Exception e) {
+                        result.setText("invalid input");
+                    }
+                });
+
+
+-Converter represent main logic as model
+    public float celsiusToFahrenheit(float celsius){
+        return (celsius * 9/5) + 32;
+    }
+
+    public float fahrenheitToCelsius(float fahrenheit){
+        return (fahrenheit - 32) * 5/9;
+    }
+
+
+-Controller is the controller ^_^
+    public float toFahrenheit(float celsius){
+        return converter.celsiusToFahrenheit(celsius);
+    }
+
+    public float toCelsius(float fahrenheit){
+        return converter.fahrenheitToCelsius(fahrenheit);
+    }

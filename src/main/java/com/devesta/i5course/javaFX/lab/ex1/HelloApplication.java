@@ -33,8 +33,8 @@ public class HelloApplication extends Application {
             try {
                 String input = textField.getText();
                 float enteredNumber = Float.parseFloat(input);
-                float fahrenheit = controller.toFahrenheit(enteredNumber);
-                result.setText("result : " + fahrenheit);
+                float Fahrenheit = controller.toFahrenheit(enteredNumber);
+                result.setText("result : " + Fahrenheit);
             } catch (Exception e) {
                 result.setText("invalid input");
             }
