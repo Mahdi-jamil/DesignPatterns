@@ -1,9 +1,9 @@
-package com.devesta.i5course.designpattern.creational.decorator;
+package com.devesta.i5course.designpattern.structural.decorator;
 
-import com.devesta.i5course.designpattern.creational.decorator.component.Coffee;
-import com.devesta.i5course.designpattern.creational.decorator.component.SimpleCoffee;
-import com.devesta.i5course.designpattern.creational.decorator.decorator.impl.MilkDecorator;
-import com.devesta.i5course.designpattern.creational.decorator.decorator.impl.SugarDecorator;
+import com.devesta.i5course.designpattern.structural.decorator.component.Coffee;
+import com.devesta.i5course.designpattern.structural.decorator.component.SimpleCoffee;
+import com.devesta.i5course.designpattern.structural.decorator.decorator.impl.MilkDecorator;
+import com.devesta.i5course.designpattern.structural.decorator.decorator.impl.SugarDecorator;
 
 public class CoffeeShop {
     public static void main(String[] args) {

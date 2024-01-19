@@ -1,6 +1,4 @@
-package com.devesta.i5course.designpattern.creational.decorator.component;
-
-import com.devesta.i5course.designpattern.creational.decorator.component.Coffee;
+package com.devesta.i5course.designpattern.structural.decorator.component;
 
 public class SimpleCoffee implements Coffee {
     @Override

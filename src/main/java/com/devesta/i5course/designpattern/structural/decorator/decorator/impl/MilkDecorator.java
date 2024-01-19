@@ -1,7 +1,7 @@
-package com.devesta.i5course.designpattern.creational.decorator.decorator.impl;
+package com.devesta.i5course.designpattern.structural.decorator.decorator.impl;
 
-import com.devesta.i5course.designpattern.creational.decorator.component.Coffee;
-import com.devesta.i5course.designpattern.creational.decorator.decorator.CoffeeDecorator;
+import com.devesta.i5course.designpattern.structural.decorator.component.Coffee;
+import com.devesta.i5course.designpattern.structural.decorator.decorator.CoffeeDecorator;
 
 public class MilkDecorator extends CoffeeDecorator {
 

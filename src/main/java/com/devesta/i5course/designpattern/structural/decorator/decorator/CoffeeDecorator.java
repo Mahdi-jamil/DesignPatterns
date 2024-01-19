@@ -1,6 +1,6 @@
-package com.devesta.i5course.designpattern.creational.decorator.decorator;
+package com.devesta.i5course.designpattern.structural.decorator.decorator;
 
-import com.devesta.i5course.designpattern.creational.decorator.component.Coffee;
+import com.devesta.i5course.designpattern.structural.decorator.component.Coffee;
 
 public abstract class CoffeeDecorator implements Coffee {
     protected Coffee decoratedCoffee;
